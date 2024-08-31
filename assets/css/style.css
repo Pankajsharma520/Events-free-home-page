@@ -23,7 +23,7 @@
 }
 
 .bg-hero-img {
-    background-image: url(/assets/images/hero-img.webp);
+    background-image: url(/assets/images/Screenshot-hero.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -185,7 +185,6 @@
 .section-3-title {
     max-width: 708px;
     line-height: 62.4px;
-    padding-top: 50px;
 }
 
 .section-3-para {
@@ -221,6 +220,10 @@
     box-shadow: 2px 9px 32px 0px #0000000F;
     padding: 10px 11px 24px 13px;
     margin-top: 127px;
+}
+
+.section-4-card:hover {
+    transform: scale(1.1);
 }
 
 .date {
@@ -390,13 +393,8 @@
         flex-direction: row;
     }
 
-    .section-4-card {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .signup-form {
-        margin-left: auto;
+        margin-left: 70px;
     }
 
     .footer-left {
@@ -422,6 +420,11 @@
     .footer-link-title {
         display: flex;
         justify-content: center;
+    }
+
+    .main-title {
+        margin-top: 100px;
+
     }
 }
 
@@ -505,6 +508,10 @@
     .top-cards {
         flex-wrap: nowrap;
         gap: 20px;
+    }
+
+    .signup-form {
+        margin-left: auto;
     }
 }
 
@@ -600,5 +607,14 @@
         align-items: center;
         justify-content: space-evenly;
         align-items: flex-end;
+    }
+
+    .img-box-top {
+        gap: 5px;
+    }
+
+    .img-box-bottom {
+        gap: 5px;
+        margin-top: 10px;
     }
 }
